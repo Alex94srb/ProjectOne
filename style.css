@@ -364,14 +364,10 @@ body {
 	width: 350px;
 	margin-right: 40px;
 	border-radius: 20px;
-	box-shadow: 1px 1px 15px 1px #DEEBFF;
-	
-
+	box-shadow: 1px 2px 15px 1px #DEEBFF;
 	display: flex;
 	flex-direction: column;
-
 	position: relative;
-
 }
 
 
@@ -384,36 +380,81 @@ body {
 	border-top-right-radius: 15px;
 	position: relative;
 }
+/* Small card activities image  -5- */
+.small-card-activities-img{
+	width: 100%;
+	position: absolute;
+}
 
-/* Small cards large  -5- */
+
+
+/* Small cards large  -6- */
 .small-cards-large{
 	flex-basis: 100%
 }
 
-/* Small cards medium -5- */
+/* Small card medium -6- */
 .small-cards-medium{
 	flex-basis: 55%;
 }
 
-/* Small cards small  -5- */
+/* Small card small  -6- */
 .small-cards-small{
 	flex-basis: 35%; 
 }
+/* Small cards even -6  */
+.small-cards-even{
+	flex-basis: 45%;
+}
 
-/* Small card space between card on top -6- */
+
+
+/* Small card space between card on top -7- */
 .small-cards-margin-top{
 	margin-top: auto;
 }
 
-/* Text in small activities cards -7- */
+/* Text in small activities cards -8- */
 .small-cards-activities-text{
 	padding-left: 20px;
 	font-weight: bold;
 }
 
+/* Image in activities number 1   -9- */
+#activity-img-1{
+	height: 500px; 
+	width: 800px;  
+	left: -230px;
+}
+/* Image in activities number 2   -9- */
+#activity-img-2{
+	top: -110px;
+}
+/* Image in activities number 3   -9- */
+#activity-img-3{
+	top: -25px;
+}
+/* Image in activities number 4   -9- */
+#activity-img-4{
+	height: 500px; 
+	width: 800px;
+	left: -230px;
+}
+/* Image in activities number 5   -9- */
+#activity-img-5{
+	top: 0px;
+}
+/* Image in activities number 6   -9- */
+#activity-img-6{
+	top: -10px;
+}
 
 
 
+
+
+
+/*      	 Other styles        */
 
 /* Color of text in input (Marseille, France) */
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
