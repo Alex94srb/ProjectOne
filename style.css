@@ -62,8 +62,6 @@ body {
 	
 	border: 1px solid #F2F2F2;
 	border-right: none;
-	/* border-top-left-radius:  15px;
-	border-bottom-left-radius: 15px; */
 	background-color: #F2F2F2;
 	width: 8%;
 	padding-left: 8px;
@@ -89,8 +87,6 @@ body {
 	background-color: #0065FC;
 	border: 1px solid #0065FC;
 	border-left: none;
-	/* border-top-right-radius:  20px;
-	border-bottom-right-radius: 20px; */
 	font-size: 1.15em;
 	font-weight: bold;
 	text-align: center;
@@ -148,14 +144,12 @@ body {
 	margin-right: 20px;
 	margin-bottom: 30px;
 	border-radius: 20px;
-	/* flex-grow: 6;  */
 	background-color: #F2F2F2;
 }
 #div-box-two{
 	margin-left: 20px;
 	margin-bottom: 30px;
 	border-radius: 20px;
-	/* flex-grow: 4;  */
 	background-color: #F2F2F2;
 }
 
@@ -221,11 +215,6 @@ body {
   flex-wrap: wrap;
 
   position: relative;
-  /* line-height: 100px;
-  font-weight: bold;
-  font-size: 2em;
-  text-align: center; */
-
   
 }
 
@@ -308,7 +297,6 @@ body {
 
 
 
-
 /* Small card col image container */
 .small-card-img-container-col {
 	width: 40%; 
@@ -341,6 +329,88 @@ body {
 	margin-bottom: 10px;
 
 }
+
+
+
+
+
+
+
+/* 						Third chapter            			 */
+
+/* -Third box -1- */
+#box-tree{
+	height: 525px;
+	padding: 0;
+	margin-top: 50px;
+
+}
+
+/* Small List -2- */
+#small-list-tree{
+	height: inherit;
+	padding: 0;
+	padding-right: 20px;
+	margin-bottom: 20px;
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+  	flex-wrap: wrap;
+
+}
+
+/* Small cards activites  -3- */
+.small-cards-activities{
+	width: 350px;
+	margin-right: 40px;
+	border-radius: 20px;
+	box-shadow: 1px 1px 15px 1px #DEEBFF;
+	
+
+	display: flex;
+	flex-direction: column;
+
+	position: relative;
+
+}
+
+
+/*  Small-card-img-container-activities -4- */
+.small-card-img-container-activities{
+	width: 100%; 
+	height: 90%;
+	overflow: hidden;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
+	position: relative;
+}
+
+/* Small cards large  -5- */
+.small-cards-large{
+	flex-basis: 100%
+}
+
+/* Small cards medium -5- */
+.small-cards-medium{
+	flex-basis: 55%;
+}
+
+/* Small cards small  -5- */
+.small-cards-small{
+	flex-basis: 35%; 
+}
+
+/* Small card space between card on top -6- */
+.small-cards-margin-top{
+	margin-top: auto;
+}
+
+/* Text in small activities cards -7- */
+.small-cards-activities-text{
+	padding-left: 20px;
+	font-weight: bold;
+}
+
 
 
 
